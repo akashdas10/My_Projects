@@ -1,0 +1,41 @@
+body{
+    background-color: grey;
+}
+.container{
+    height: 500px;
+    width: 700px;
+    margin: 50px auto;
+    border-radius: 10px;
+    text-align: center;
+    border: solid black;
+    background-color: rgb(230, 204, 178);
+}
+.box.one{
+    height: 1px;
+    text-align: center;
+    margin: 10px;
+    border: solid black;
+    border-radius: 10px;
+    background-color:rgb(127, 85, 57) ;
+    color:white;
+    padding-top: 0;
+    padding-left: 30px;
+    padding-right: 40px;
+    padding: 20px;
+}
+.box.two{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin: 10px;
+    margin-bottom: 10px;
+    border: solid black;
+    border-radius: 10px;
+    height:310px  
+}
+.p{
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: left;
+
+   
+}
