@@ -1,0 +1,319 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.firstpage{
+    height: 710px;
+    background-image: url(1st\ background.jpg);
+    background-size: cover;
+}
+.firstnav{
+    height: 45px;
+    width: 100%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+}
+.leftnav{
+    height: 45px;
+    display: flex;
+    margin-left: 50px;
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+.rightnav{
+    height: 45px;
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+}
+.item1{
+    width:140px
+}
+#sub-item1{
+    text-decoration: none;
+    color: red;
+    justify-content: right;
+}
+.item1 a{
+    color: white;
+    text-decoration: none;
+}
+.items a{
+    text-decoration: none;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.content{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.content h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75px;
+}
+.content span{
+    color: red;
+}
+.submit{
+    height: 40px;
+    width: 175px;
+    margin-left: 50px;
+    margin-top: 75px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.slides{
+    height: 20px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+input[type="radio"]{
+    accent-color: red;
+    background-color: transparent;
+}
+.secondpage{
+    height: 750px;
+    background-image: url(2nd\ background.jpg);
+    background-size: cover;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+.header2{
+    margin-left: 40px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin-top: 40px;
+}
+.header2 span{
+    color: red;
+}
+.content2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+    margin-left:40px ;
+    font-size: 22px;
+}
+.content2 span{
+    color: red;
+}
+.learnmore {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.learnmore a{
+    text-decoration: none;
+    color: white;
+}
+.profile{
+    display: flex;
+    height: 150px;
+    margin-top: 75px;
+    margin-left: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.profile-image{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    background-image: url(Project\ Profile\ Pic.jpg.jpg);
+    background-size: cover;
+    margin-right: 20px;
+}
+.title h1{
+    color: white;
+}
+.title h4{
+    color: red;
+    margin-bottom: 45px;
+}
+.title h2{
+    color: white;
+}
+.footer{
+    height: 75px;
+    background-color: black;
+}
+.thirdpage{
+    height: 750px;
+    background-image: url(3rd\ background.jpg);
+    background-size: cover;
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.content3{
+    display: flex;
+    margin: 40px 40px 75px 40px;
+    justify-content: space-between;
+    gap: 150px;
+}
+.title3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+}
+.content3 span{
+    color: red;
+}
+.content3 p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+}
+.content3 a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.learnmore3{
+    margin-top: 95px;
+}
+.game-list{
+    height: 150px;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom:75px ;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.game1{
+    height: 150px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+.game1-pic{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+}
+.game1-details{
+    margin-left:20px;
+}
+.game1-details h1{
+   margin-bottom: 10px;
+}
+.game1-details h5{
+    color: red;
+    margin-top: 10px;
+}
+.game2{
+    height: 150px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+.game2-pic{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+}
+.game2-details{
+    margin-left:20px ;
+}
+.game2-details h1{
+    margin-bottom: 10px;
+}
+.game2-details h5{
+    color: red;
+    margin-top: 10px;
+}
+.game3{
+    height: 150px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+}
+.game3-pic{
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+}
+.game3-details{
+    margin-left:20px ;
+}
+.game3-details h1{
+    margin-bottom: 10px;
+}
+.game3-details h5{
+    color: red;
+    margin-top: 10px;
+}
+.response-bar{
+    height: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.submit3{
+    height: 40px;
+    width: 175px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit3 a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.subscribe-enquire{
+    height: 80px;
+    width: 185px;
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe{
+    height: 40px;
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+.subscribe a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.enquire{
+    height: 40px;
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+.enquire a{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.end-footer{
+    height: 75px;
+    background-color: rgb(230, 230, 230);
+}
